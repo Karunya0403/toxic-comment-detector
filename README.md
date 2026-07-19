@@ -282,7 +282,7 @@ This project demonstrates practical knowledge of:
 
 
 
-\*\*Karunya G\*\*
+Karunya GK
 
 
 
