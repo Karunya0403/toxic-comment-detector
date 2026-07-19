@@ -2,7 +2,7 @@
 
 
 
-A simple Natural Language Processing (NLP) project that classifies user comments as \*\*Toxic\*\* or \*\*Non-Toxic\*\* using \*\*TF-IDF Vectorization\*\* and \*\*Logistic Regression\*\*. The application is built with Python and scikit-learn and provides real-time predictions through an interactive command-line interface.
+> A Machine Learning project that classifies text comments as \*\*Toxic\*\* or \*\*Non-Toxic\*\* using \*\*Natural Language Processing (NLP)\*\* techniques with \*\*TF-IDF Vectorization\*\* and \*\*Logistic Regression\*\*.
 
 
 
@@ -10,19 +10,15 @@ A simple Natural Language Processing (NLP) project that classifies user comments
 
 
 
-\## Features
+\## 📖 Overview
 
 
 
-\- Detects toxic and non-toxic comments
+Content moderation is an important challenge for online platforms. This project demonstrates a simple NLP pipeline that automatically classifies comments as \*\*Toxic\*\* or \*\*Non-Toxic\*\* using Machine Learning.
 
-\- TF-IDF text vectorization
 
-\- Logistic Regression classifier
 
-\- Interactive command-line prediction
-
-\- Model evaluation using Accuracy and Classification Report
+The model is trained on a sample dataset using \*\*TF-IDF Vectorization\*\* for feature extraction and \*\*Logistic Regression\*\* for classification. Users can interact with the model through an easy-to-use command-line interface.
 
 
 
@@ -30,19 +26,21 @@ A simple Natural Language Processing (NLP) project that classifies user comments
 
 
 
-\## Tech Stack
+\## ✨ Features
 
 
 
-\- Python
+\- 🔍 Detects toxic and non-toxic comments
 
-\- Pandas
+\- 🧠 TF-IDF text vectorization
 
-\- scikit-learn
+\- 🤖 Logistic Regression classifier
 
-\- TF-IDF Vectorizer
+\- 📊 Displays Accuracy and Classification Report
 
-\- Logistic Regression
+\- 💬 Interactive command-line prediction
+
+\- ⚡ Lightweight implementation for learning NLP fundamentals
 
 
 
@@ -50,7 +48,31 @@ A simple Natural Language Processing (NLP) project that classifies user comments
 
 
 
-\## Project Structure
+\## 🛠️ Tech Stack
+
+
+
+| Category | Technology |
+
+|----------|------------|
+
+| Language | Python |
+
+| Machine Learning | Scikit-learn |
+
+| Data Processing | Pandas |
+
+| NLP | TF-IDF Vectorizer |
+
+| Model | Logistic Regression |
+
+
+
+\---
+
+
+
+\## 📂 Project Structure
 
 
 
@@ -58,17 +80,21 @@ A simple Natural Language Processing (NLP) project that classifies user comments
 
 toxic-comment-detector/
 
-│── assets/
+│
 
-│   └── comment detector.png
+├── assets/
 
-│── model.py
+│   └── prediction\_demo.png
 
-│── requirements.txt
+│
 
-│── README.md
+├── model.py
 
-│── .gitignore
+├── requirements.txt
+
+├── README.md
+
+└── .gitignore
 
 ```
 
@@ -78,7 +104,7 @@ toxic-comment-detector/
 
 
 
-\## Installation
+\## ⚙️ Installation
 
 
 
@@ -90,13 +116,23 @@ Clone the repository:
 
 git clone https://github.com/Karunya0403/toxic-comment-detector.git
 
+```
+
+
+
+Move into the project directory:
+
+
+
+```bash
+
 cd toxic-comment-detector
 
 ```
 
 
 
-Install dependencies:
+Install the required packages:
 
 
 
@@ -112,11 +148,7 @@ pip install -r requirements.txt
 
 
 
-\## Usage
-
-
-
-Run the project:
+\## ▶️ Running the Project
 
 
 
@@ -128,19 +160,39 @@ python model.py
 
 
 
-Example:
+\---
 
 
 
-```
+\## 💻 Sample Output
 
-Enter a comment (type 'exit' to stop): I love this project
+
+
+```text
+
+========================================
+
+&#x20;     Toxic Comment Detector
+
+========================================
+
+
+
+Test Accuracy: 0.50
+
+
+
+Enter a comment (type 'exit' to stop):
+
+
+
+I love this project
 
 Prediction: Non-Toxic ✅
 
 
 
-Enter a comment (type 'exit' to stop): You are useless
+You are useless
 
 Prediction: Toxic ❌
 
@@ -152,27 +204,21 @@ Prediction: Toxic ❌
 
 
 
-\## Model
+\## 📊 Model Details
 
 
 
-\- Text Vectorization: TF-IDF
+| Component | Description |
 
-\- Machine Learning Algorithm: Logistic Regression
+|-----------|-------------|
 
-\- Dataset: Small sample dataset created for demonstration purposes
+| Feature Extraction | TF-IDF Vectorizer |
 
+| Algorithm | Logistic Regression |
 
+| Evaluation | Accuracy, Precision, Recall, F1-Score |
 
-\---
-
-
-
-\## Sample Output
-
-
-
-The project includes a sample prediction screenshot inside the \*\*assets\*\* folder.
+| Framework | Scikit-learn |
 
 
 
@@ -180,17 +226,11 @@ The project includes a sample prediction screenshot inside the \*\*assets\*\* fo
 
 
 
-\## Future Improvements
+\## 📸 Demo
 
 
 
-\- Train on a larger real-world dataset
-
-\- Build a Flask/FastAPI web interface
-
-\- Deploy as a web application
-
-\- Improve model accuracy with advanced NLP techniques
+!\[Prediction Demo](assets/prediction\_demo.png)
 
 
 
@@ -198,9 +238,77 @@ The project includes a sample prediction screenshot inside the \*\*assets\*\* fo
 
 
 
-\## License
+\## 🚀 Future Improvements
 
 
 
-This project is intended for learning and portfolio purposes.
+\- Train the model on a larger real-world toxic comment dataset
+
+\- Improve prediction accuracy using advanced NLP models
+
+\- Build a Flask or FastAPI web application
+
+\- Add a modern web-based user interface
+
+\- Experiment with transformer-based models such as BERT
+
+\- Deploy the application to the cloud
+
+
+
+\---
+
+
+
+\## 🎯 Learning Outcomes
+
+
+
+This project demonstrates practical knowledge of:
+
+
+
+\- Natural Language Processing (NLP)
+
+\- Text Vectorization
+
+\- Machine Learning Classification
+
+\- Model Evaluation
+
+\- Python Programming
+
+\- Scikit-learn Workflow
+
+
+
+\---
+
+
+
+\## 👨‍💻 Author
+
+
+
+\*\*Karunya G\*\*
+
+
+
+Artificial Intelligence \& Data Science Engineer
+
+
+
+\- GitHub: https://github.com/Karunya0403
+
+
+
+\---
+
+
+
+\## ⭐ Support
+
+
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
 
