@@ -1,16 +1,16 @@
-\# Toxic Comment Detector
+ Toxic Comment Detector
 
 
 
-> A Machine Learning project that classifies text comments as \*\*Toxic\*\* or \*\*Non-Toxic\*\* using \*\*Natural Language Processing (NLP)\*\* techniques with \*\*TF-IDF Vectorization\*\* and \*\*Logistic Regression\*\*.
+ A Machine Learning project that classifies text comments as \*\*Toxic\*\* or \*\*Non-Toxic\*\* using \*\*Natural Language Processing (NLP)\*\* techniques with \*\*TF-IDF Vectorization\*\* and \*\*Logistic Regression\*\*.
 
 
 
-\---
 
 
 
-\## 📖 Overview
+
+ 📖 Overview
 
 
 
@@ -22,33 +22,33 @@ The model is trained on a sample dataset using \*\*TF-IDF Vectorization\*\* for 
 
 
 
-\---
 
 
 
-\## ✨ Features
+
+ ✨ Features
 
 
 
-\- 🔍 Detects toxic and non-toxic comments
+ 🔍 Detects toxic and non-toxic comments
 
-\- 🧠 TF-IDF text vectorization
+🧠 TF-IDF text vectorization
 
-\- 🤖 Logistic Regression classifier
+ 🤖 Logistic Regression classifier
 
-\- 📊 Displays Accuracy and Classification Report
+ 📊 Displays Accuracy and Classification Report
 
-\- 💬 Interactive command-line prediction
+ 💬 Interactive command-line prediction
 
-\- ⚡ Lightweight implementation for learning NLP fundamentals
-
-
-
-\---
+ ⚡ Lightweight implementation for learning NLP fundamentals
 
 
 
-\## 🛠️ Tech Stack
+
+
+
+
+ 🛠️ Tech Stack
 
 
 
@@ -68,15 +68,15 @@ The model is trained on a sample dataset using \*\*TF-IDF Vectorization\*\* for 
 
 
 
-\---
 
 
 
-\## 📂 Project Structure
+
+ 📂 Project Structure
 
 
 
-```
+
 
 toxic-comment-detector/
 
@@ -100,11 +100,11 @@ toxic-comment-detector/
 
 
 
-\---
 
 
 
-\## ⚙️ Installation
+
+ ⚙️ Installation
 
 
 
@@ -148,7 +148,7 @@ pip install -r requirements.txt
 
 
 
-\## ▶️ Running the Project
+ ▶️ Running the Project
 
 
 
@@ -160,11 +160,11 @@ python model.py
 
 
 
-\---
 
 
 
-\## 💻 Sample Output
+
+💻 Sample Output
 
 
 
@@ -200,11 +200,11 @@ Prediction: Toxic ❌
 
 
 
-\---
 
 
 
-\## 📊 Model Details
+
+ 📊 Model Details
 
 
 
@@ -222,7 +222,6 @@ Prediction: Toxic ❌
 
 
 
-\---
 
 
 
@@ -230,29 +229,29 @@ Prediction: Toxic ❌
 
 
 
-\## 🚀 Future Improvements
+ 🚀 Future Improvements
 
 
 
-\- Train the model on a larger real-world toxic comment dataset
+ Train the model on a larger real-world toxic comment dataset
 
-\- Improve prediction accuracy using advanced NLP models
+ Improve prediction accuracy using advanced NLP models
 
-\- Build a Flask or FastAPI web application
+ Build a Flask or FastAPI web application
 
-\- Add a modern web-based user interface
+ Add a modern web-based user interface
 
-\- Experiment with transformer-based models such as BERT
+ Experiment with transformer-based models such as BERT
 
-\- Deploy the application to the cloud
-
-
-
-\---
+ Deploy the application to the cloud
 
 
 
-\## 🎯 Learning Outcomes
+
+
+
+
+ 🎯 Learning Outcomes
 
 
 
@@ -260,25 +259,24 @@ This project demonstrates practical knowledge of:
 
 
 
-\- Natural Language Processing (NLP)
+ Natural Language Processing (NLP)
+ 
+ Text Vectorization
 
-\- Text Vectorization
+ Machine Learning Classification
 
-\- Machine Learning Classification
+ Model Evaluation
 
-\- Model Evaluation
+ Python Programming
 
-\- Python Programming
-
-\- Scikit-learn Workflow
-
-
-
-\---
+ Scikit-learn Workflow
 
 
 
-\## 👨‍💻 Author
+
+
+
+ 👨‍💻 Author
 
 
 
@@ -290,15 +288,15 @@ Artificial Intelligence \& Data Science Engineer
 
 
 
-\- GitHub: https://github.com/Karunya0403
+ GitHub: https://github.com/Karunya0403
 
 
 
-\---
 
 
 
-\## ⭐ Support
+
+ ⭐ Support
 
 
 
