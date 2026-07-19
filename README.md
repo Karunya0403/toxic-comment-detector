@@ -2,7 +2,7 @@
 
 
 
-A machine learning project that classifies user comments as \*\*Toxic\*\* or \*\*Non-Toxic\*\* using Natural Language Processing (NLP) techniques. The application converts text into numerical features using \*\*TF-IDF Vectorization\*\* and predicts toxicity with a \*\*Logistic Regression\*\* classifier.
+A simple Natural Language Processing (NLP) project that classifies user comments as \*\*Toxic\*\* or \*\*Non-Toxic\*\* using \*\*TF-IDF Vectorization\*\* and \*\*Logistic Regression\*\*. The application is built with Python and scikit-learn and provides real-time predictions through an interactive command-line interface.
 
 
 
@@ -14,15 +14,15 @@ A machine learning project that classifies user comments as \*\*Toxic\*\* or \*\
 
 
 
-\- Detects toxic and non-toxic comments in real time.
+\- Detects toxic and non-toxic comments
 
-\- Uses TF-IDF for text feature extraction.
+\- TF-IDF text vectorization
 
-\- Trained with Logistic Regression.
+\- Logistic Regression classifier
 
-\- Evaluates model performance using a train-test split.
+\- Interactive command-line prediction
 
-\- Interactive command-line interface for live predictions.
+\- Model evaluation using Accuracy and Classification Report
 
 
 
@@ -36,7 +36,7 @@ A machine learning project that classifies user comments as \*\*Toxic\*\* or \*\
 
 \- Python
 
-\- pandas
+\- Pandas
 
 \- scikit-learn
 
@@ -58,17 +58,17 @@ A machine learning project that classifies user comments as \*\*Toxic\*\* or \*\
 
 toxic-comment-detector/
 
-│
+│── assets/
 
-├── assets/
+│   └── comment detector.png
 
-├── model.py
+│── model.py
 
-├── requirements.txt
+│── requirements.txt
 
-├── README.md
+│── README.md
 
-└── .gitignore
+│── .gitignore
 
 ```
 
@@ -79,6 +79,24 @@ toxic-comment-detector/
 
 
 \## Installation
+
+
+
+Clone the repository:
+
+
+
+```bash
+
+git clone https://github.com/Karunya0403/toxic-comment-detector.git
+
+cd toxic-comment-detector
+
+```
+
+
+
+Install dependencies:
 
 
 
@@ -94,7 +112,11 @@ pip install -r requirements.txt
 
 
 
-\## Run the Project
+\## Usage
+
+
+
+Run the project:
 
 
 
@@ -106,35 +128,19 @@ python model.py
 
 
 
-\---
-
-
-
-\## Sample Output
+Example:
 
 
 
 ```
 
-=== Toxic Comment Detector ===
-
-
-
-Enter a comment:
-
-> You are amazing
-
-
+Enter a comment (type 'exit' to stop): I love this project
 
 Prediction: Non-Toxic ✅
 
 
 
-Enter a comment:
-
-> I hate you
-
-
+Enter a comment (type 'exit' to stop): You are useless
 
 Prediction: Toxic ❌
 
@@ -146,17 +152,45 @@ Prediction: Toxic ❌
 
 
 
+\## Model
+
+
+
+\- Text Vectorization: TF-IDF
+
+\- Machine Learning Algorithm: Logistic Regression
+
+\- Dataset: Small sample dataset created for demonstration purposes
+
+
+
+\---
+
+
+
+\## Sample Output
+
+
+
+The project includes a sample prediction screenshot inside the \*\*assets\*\* folder.
+
+
+
+\---
+
+
+
 \## Future Improvements
 
 
 
-\- Train on a larger real-world dataset.
+\- Train on a larger real-world dataset
 
-\- Build a Flask or Streamlit web interface.
+\- Build a Flask/FastAPI web interface
 
-\- Save the trained model using Joblib.
+\- Deploy as a web application
 
-\- Add precision, recall, and F1-score metrics.
+\- Improve model accuracy with advanced NLP techniques
 
 
 
@@ -168,5 +202,5 @@ Prediction: Toxic ❌
 
 
 
-This project is intended for educational and portfolio purposes.
+This project is intended for learning and portfolio purposes.
 
