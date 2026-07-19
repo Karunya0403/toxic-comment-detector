@@ -226,15 +226,7 @@ Prediction: Toxic ❌
 
 
 
-\## 📸 Demo
 
-
-
-!\[Prediction Demo](assets/prediction\_demo.png)
-
-
-
-\---
 
 
 
